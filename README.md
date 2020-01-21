@@ -2,7 +2,7 @@
 Personal library of functions, for use in other 42 projects.
 Initially serving as an introduction to C functions
 
-## Additional functions`
+## Additional functions
 ```c
 int	get_next_line(const int fd, char **line);
 int	ft_printf(const char *restrict format, ...);
