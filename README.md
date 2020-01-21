@@ -6,8 +6,10 @@ Initially serving as an introduction to C functions
 ```c
 int	get_next_line(const int fd, char **line);
 int	ft_printf(const char *restrict format, ...);
+```
 	
 ## Memory
+```c
 void	*ft_memset(void *str, int c, size_t n);
 void	ft_bzero(void *s, size_t n);
 void	*ft_memcpy(void *dst, const void *src, size_t n);
@@ -17,8 +19,10 @@ void	*ft_memchr(const void *s, int c, size_t n);
 int	ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memalloc(size_t size);
 void	ft_memdel(void **ap);
+```
 
 ## String 
+```c
 size_t	ft_strlen(const char *str);
 int	ft_wstrlen(wchar_t *wstr);
 char	*ft_strdup(const char *s1);
@@ -63,8 +67,10 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char const *s, int fd);
 void	ft_putendl_fd(char const *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+```
 
 ## List
+```c
 t_list	*ft_lstnew(void const *content, size_t content_size);
 void	ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
 void	ft_lstdel(t_list **alst, void (*del)(void *, size_t));
