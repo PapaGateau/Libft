@@ -1,5 +1,5 @@
 # Libft
-Personal library of functions, for use in other 42 projects
+Personal library of functions, for use in other 42 projects.
 Initially serving as an introduction to C functions
 
 ## Additional functions
